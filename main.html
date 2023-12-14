@@ -7,7 +7,44 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<!--the entire body must be written by student-->
+	
+	<form class="signupform" method="post">
+	<label for="name">Name : </label>
+	<input id="name" placeholder="Name" type="text" required>
+	
+	<label for="email">Email : </label>
+	<input id="email" placeholder="Email" type="email" required>
+	
+	<label for="gender">Gender : </label>
+	<input id="gender_m" type="radio" name="gender">
+	<input id="gender_f" type="radio" name="gender">
+	
+	<label for="name">Car Brands : </label>
+	<select id="cars" required>
+		<value>Please choose an option</value>
+	</select>
+	
+	<label for="age">Age :</label>
+	<input id="age" placeholder="Age" type="number" required>
+	
+	<label for="dob">DOB : </label>
+	<input id="dob"  type="date" required>
+	
+	<label for="phonenumber">Phone Number : </label>
+	<input id="tel" placeholder="xxx-xxx-xxx" type="tel">
+	
+	<label for="password">Password : </label>
+	<input id="password" placeholder="Password" type="password" required>
+	
+	<label for="name">I agree to the TOS : </label>
+	<input id="tos" placeholder="-" type="checkbox" required>
+
+	<button >Submit</button>
+		
+	</form>
+		
+	
     <script type="text/javascript" src="./script.js">
 </script>
 

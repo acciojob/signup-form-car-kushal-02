@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+.signupform{
+	display : flex;
+	flex-direction : column;
+	
+	
+}
